@@ -7,16 +7,34 @@ const materials=[
     "level": 1
   },
   {
+    "id": "fire_stone",
+    "name": "화염석",
+    "icon": "♦",
+    "level": 1
+  },
+  {
+    "id": "red_crystal",
+    "name": "붉은 수정",
+    "icon": "🔻",
+    "level": 1
+  },
+  {
     "id": "ancient_wood",
     "name": "고대 목재",
     "icon": "🪵",
     "level": 1
   },
   {
-    "id": "tough_leather",
-    "name": "질긴 가죽",
-    "icon": "🟫",
-    "level": 2
+    "id": "wind_feather",
+    "name": "바람 깃털",
+    "icon": "🪶",
+    "level": 1
+  },
+  {
+    "id": "magic_crystal",
+    "name": "마력 수정",
+    "icon": "💎",
+    "level": 1
   },
   {
     "id": "red_herb",
@@ -40,91 +58,73 @@ const materials=[
     "id": "blue_herb",
     "name": "푸른 약초",
     "icon": "🫐",
-    "level": 1
-  },
-  {
-    "id": "fire_stone",
-    "name": "화염석",
-    "icon": "♦",
-    "level": 1
-  },
-  {
-    "id": "wind_feather",
-    "name": "바람 깃털",
-    "icon": "🪶",
-    "level": 1
-  },
-  {
-    "id": "magic_crystal",
-    "name": "마력 수정",
-    "icon": "💎",
-    "level": 1
-  },
-  {
-    "id": "steel_plate",
-    "name": "강철판",
-    "icon": "🔩",
-    "level": 2
-  },
-  {
-    "id": "magic_cloth",
-    "name": "마력 천",
-    "icon": "📜",
-    "level": 2
-  },
-  {
-    "id": "red_crystal",
-    "name": "붉은 수정",
-    "icon": "🔻",
-    "level": 1
-  },
-  {
-    "id": "crystal_powder",
-    "name": "수정 가루",
-    "icon": "✧",
-    "level": 1
-  },
-  {
-    "id": "poison_mushroom",
-    "name": "독버섯",
-    "icon": "🍄",
-    "level": 1
-  },
-  {
-    "id": "venom_fang",
-    "name": "맹독니",
-    "icon": "🦷",
-    "level": 1
-  },
-  {
-    "id": "holy_crystal",
-    "name": "성스러운 결정",
-    "icon": "🔶",
-    "level": 2
-  },
-  {
-    "id": "silver_piece",
-    "name": "은조각",
-    "icon": "◈",
     "level": 2
   },
   {
     "id": "mana_water",
     "name": "마력수",
     "icon": "⚗",
-    "level": 1
+    "level": 2
+  },
+  {
+    "id": "crystal_powder",
+    "name": "수정 가루",
+    "icon": "✧",
+    "level": 2
+  },
+  {
+    "id": "poison_mushroom",
+    "name": "독버섯",
+    "icon": "🍄",
+    "level": 2
+  },
+  {
+    "id": "venom_fang",
+    "name": "맹독니",
+    "icon": "🦷",
+    "level": 2
+  },
+  {
+    "id": "steel_plate",
+    "name": "강철판",
+    "icon": "🔩",
+    "level": 3
+  },
+  {
+    "id": "tough_leather",
+    "name": "질긴 가죽",
+    "icon": "🟫",
+    "level": 3
+  },
+  {
+    "id": "magic_cloth",
+    "name": "마력 천",
+    "icon": "📜",
+    "level": 3
   },
   {
     "id": "black_herb",
     "name": "검은 약초",
     "icon": "🍃",
-    "level": 2
+    "level": 4
   },
   {
     "id": "bat_wing",
     "name": "박쥐 날개",
     "icon": "🦇",
-    "level": 2
+    "level": 4
+  },
+  {
+    "id": "holy_crystal",
+    "name": "성스러운 결정",
+    "icon": "🔶",
+    "level": 4
+  },
+  {
+    "id": "silver_piece",
+    "name": "은조각",
+    "icon": "◈",
+    "level": 4
   }
 ];
 const people=[
